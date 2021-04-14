@@ -16,3 +16,6 @@ attributes of the data frame object to complete the following activities (i.e. d
 6. Convert this new data frame to a numpy array using the `to_numpy()`
   method of the data frame. Save the result to a new variable. Then,
   use the numpy array to plot the absolute magnitude as a function of distance. Save the plot as magVsDistance.png.
+  
+ Warning: Remember data types are important! In this assignment, it is really easy to create a dataframe that has data with the wrong data type. Make sure that once you create the dataframe, each column of data has the type that you expect. Please note that if you populate a numpy array with all of your data, that array can only hold data of a single type (unlike a python list which allows mixed types). This can lead to a dataframe that is filled with a bunch of strings when you meant to include numerical data such as floats and ints.
+ 
